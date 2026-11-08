@@ -4,7 +4,7 @@ Proyecto de automatización de pruebas End-to-End (E2E) desarrollado para la cá
 
 ---
 
-## 🏗️ 1. Estructura y Arquitectura del Proyecto
+## 1. Estructura y Arquitectura del Proyecto
 
 El proyecto implementa el patrón de diseño **Page Object Model (POM)** recomendado por la cátedra para desacoplar la lógica de interacción con la interfaz de usuario de los casos de prueba y aserciones.
 
@@ -26,7 +26,7 @@ tp-playwright/
 
 ---
 
-## 🎯 2. Descripción de la Prueba E2E
+## 2. Descripción de la Prueba E2E
 
 * **Objetivo:** Automatizar la búsqueda del libro **"UML y Patrones"** en el portal de la Biblioteca de la Universidad de Mendoza y comprobar que la interfaz procese la consulta correctamente.
 * **URL Objetivo:** `https://www.um.edu.ar/biblio/`
@@ -34,14 +34,14 @@ tp-playwright/
 
 ---
 
-## ⚙️ 3. Requisitos Previos
+## 3. Requisitos Previos
 
 * **Node.js** (versión 18 o superior) y **npm**.
 * Sistema operativo compatible (configurado y probado en **Linux Mint**).
 
 ---
 
-## 🚀 4. Instalación Paso a Paso
+## 4. Instalación Paso a Paso
 
 1. **Instalar las dependencias de Node.js:**
 ```bash
@@ -67,7 +67,7 @@ sudo npx playwright install-deps
 
 ---
 
-## 🧪 5. Ejecución de las Pruebas
+## 5. Ejecución de las Pruebas
 
 * **Ejecutar el test en modo visual:**
 ```bash
@@ -79,7 +79,7 @@ npx playwright test --headed
 
 ---
 
-## 📊 6. Reportes y Evidencias
+## 6. Reportes y Evidencias
 
 El framework genera automáticamente evidencias detalladas (capturas de pantalla, videos y trazas de ejecución). Para visualizar el reporte interactivo en el navegador, ejecutar:
 
