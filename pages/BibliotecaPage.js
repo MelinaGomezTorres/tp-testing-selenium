@@ -1,7 +1,6 @@
 class BibliotecaPage {
   constructor(page) {
     this.page = page;
-    // Localizador enfocado en el buscador de la biblioteca
     this.searchInput = page.locator("input[name='_sf_search[]'], input[type='search'], input[type='text']").first();
   }
 
@@ -18,7 +17,6 @@ class BibliotecaPage {
   }
 
   obtenerElementoResultado() {
-    // Valida que el contenedor principal de la página muestre los resultados de la búsqueda
     return this.page.locator("main, #content, body").first();
   }
 }
